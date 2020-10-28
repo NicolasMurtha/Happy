@@ -1,4 +1,4 @@
-const map = L.map('mapid').setView([51.505, -0.09], 13);
+const map = L.map('mapid').setView([-21.1295905,-47.8329384], 13);
 
 L.tileLayer(
     'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
@@ -9,7 +9,7 @@ L.tileLayer(
 
 //create icon
  const icon = L.icon({
-     iconUrl: "./public/images/map-marker.svg",
+     iconUrl: "/images/map-marker.svg",
      iconSize: [58, 68],
      iconAnchor: [29, 68],
  })
